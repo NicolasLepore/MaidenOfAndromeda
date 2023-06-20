@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap');
+@import url('./header.css');
+@import url('./swiper.css');
+@import url('./home.css');
+@import url('./footer.css');
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    --bg: #020716;
+    --primary-container: #081024;
+    --secondary-container: linear-gradient(90.41deg, rgba(17, 38, 151, 0.91) 0.36%, rgba(0, 24, 108, 0.91) 21.04%);
+    --title: #1153EB;
+    --title-gradient: linear-gradient(90deg, #112697 0%, #5810EA 78.02%);
+    --footer-text: #8A8A8A;
+    --selected: #5810EA;
+    --btn: #112697;
+}
+
+body {
+    background-color: var(--bg);
+    color: white;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+section {
+    padding: 0 3.5rem;
+}

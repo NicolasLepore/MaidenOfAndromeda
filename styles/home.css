@@ -1,0 +1,137 @@
+.home {
+    display: grid;
+}
+
+.playnow-btn {
+    background-color: var(--btn);
+    color: #FFFFFF;
+    padding: 1rem 1.5rem;
+    width: 200px;
+    text-align: center;
+    border-radius: 8px;
+    justify-self: center;
+    transition: 0.6s all;
+    font-weight: 700;
+}
+
+.playnow-btn:hover {
+    transform: scale(0.95);
+    background-color: #FFFFFF;
+    color: var(--btn);
+}
+
+.first-container {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.first-container-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-left: 2rem;
+}
+
+.first-container-left figure {
+    display: flex;
+}
+
+.first-container-left figure img {
+    width: 70px;
+}
+
+.first-container-left h1 {
+    font-size: 70px;
+    font-weight: 700;
+    box-shadow: 0px 0px 10px 10px #0000008C inset;
+    background: var(--title-gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.first-container-left p {
+    text-align: center;
+    width: 350px;
+    font-size: 18px;
+}
+
+
+.containers-img {
+    width: 50%;
+    align-self: center;
+    object-fit: cover;
+}
+
+.second-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 6rem;
+}
+
+.second-container h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--title);
+}
+
+.second-container p {
+    font-size: 18px;
+    text-align: center;
+    width: 75%;
+}
+
+.second-container-images {
+    width: 100%;
+    position: relative;
+}
+
+.second-container figure {
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.second-container-learnmore {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.second-container-learnmore-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 353px;
+    height: 100px;
+    background-color: #08102467;
+    background-image: url('../imgs/icons8-chevron-100.png');
+    background-size: 65px;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    transition: 0.6s all;
+    position: absolute;
+    bottom: 0;
+}
+
+.second-learnmore-btn {
+    left: calc(50% - 353px / 2);
+}
+
+.third-learnmore-btn {
+    left: calc(100% - 353px);
+}
+
+.second-container-list {
+    display: none;
+    flex-direction: column;
+    gap: .5rem;
+}
