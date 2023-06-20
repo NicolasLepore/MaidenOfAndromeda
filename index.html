@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOA - Maiden of Andromeda</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+</head>
+<body>
+    <header>
+        <figure>
+            <img src="imgs/Logo.png" alt="Logo da MOA">
+            <h1>MOA</h1>
+        </figure>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#games">Jogos</a>
+            <a href="#about">Sobre nós</a>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="home">
+            <div id="swiper" class="swiper">
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide" style="background-image: url('./imgs/carousel-img2.jpg');"></div>
+                    <div class="swiper-slide" style="background-image: url('./imgs/carousel-img1.jpg');"></div>
+                    <div class="swiper-slide" style="background-image: url('./imgs/carousel-img3.jpg');"></div>
+                    <div class="swiper-slide" style="background-image: url('./imgs/carousel-img2.jpg');"></div>
+                    <div class="swiper-slide" style="background-image: url('./imgs/carousel-img1.jpg');"></div>
+                    <div class="swiper-slide" style="background-image: url('./imgs/carousel-img3.jpg');"></div>
+                </div>
+                
+                <div class="swiper-pagination"></div>
+    
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+
+            <a class="playnow-btn" href="#games">Jogue agora!!</a>
+
+            <div class="home-containers">
+                <div class="first-container">
+                    <div class="first-container-left">
+                        <figure>
+                            <img src="imgs/Logo-gradient.svg" alt="Logo">
+                            <h1>MOA</h1>
+                        </figure>
+                        <p>Maiden Of Andromeda foi formada por quatro amigos com uma paixão em comum por jogos, que resolveram criar um como um projeto pessoal, algo divertido e interessante, se aprofundando no processo de criação de jogos, para desenvolver algo que pode ser aproveitado pelos jogadores.
+                        </p>
+                    </div>
+                    <img class="containers-img" src="imgs/first-container-img.svg">
+                </div>
+
+                <div class="second-container">
+                    <h1>Esses foram alguns apps e sites que usamos</h1>
+                    <p>Utilizamos várias ferramentas durante o desenvolvimento do projeto, e caso você esteja interessado no processo, ou querendo criar seu próprio projeto, e estiver curioso sobre quais ferramentas usar, aqui está uma lista das nossas:</p>
+                    <div class="second-container-images">
+                        <figure>
+                            <img src="imgs/second-container-img1.svg">
+                            <img src="imgs/second-container-img2.svg">
+                            <img src="imgs/second-container-img3.svg">
+                        </figure>
+                        <div class="second-container-learnmore">
+                            <div class="first-learnmore-btn second-container-learnmore-btn" data-seclearnmore >
+                                <ul class="second-container-list">
+                                    <li>
+                                        <h4>Programação/Design do Site: </h4>
+                                    </li>
+                                    <li>
+                                        Visual Studio Code
+                                    </li>
+                                    <li>
+                                        Figma
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="second-learnmore-btn second-container-learnmore-btn" data-seclearnmore >
+                                <ul class="second-container-list">
+                                    <li>
+                                        <h4>Produção do Jogo:</h4>
+                                    </li>
+                                    <li>
+                                        Construct 2
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="third-learnmore-btn second-container-learnmore-btn" data-seclearnmore >
+                                <ul class="second-container-list">
+                                    <li>
+                                        <h4>Artes: </h4>
+                                    </li>
+                                    <li>
+                                        Piskel
+                                    </li>
+                                    <li>
+                                        Aseprite
+                                    </li>
+                                    <li>
+                                        Photoshop
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer-left">
+                <h5>maidenofandromeda@gmail.com</h5>
+                <span>
+                    <img src="imgs/twitter-logo.svg" alt="">
+                    <h5>@moaempresa</h5>
+                </span>
+                <span>
+                    <img src="imgs/instagram-logo.svg" alt="">
+                    <h5>@moaempresa</h5>
+                </span>
+            </div>
+
+            <form id="form" class="footer-right">
+                <input type="text" placeholder="Envie seu feedback">
+                <img id="form-submit" src="imgs/submit-logo.svg" alt="Botão enviar feedback" data-submit>
+            </form>
+        </footer>
+    </main>
+
+    <script type="module" src="./app/swiper.js"></script>
+    <script type="module" src="index.js"></script>
+</body>
+</html>
