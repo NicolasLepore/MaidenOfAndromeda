@@ -1,6 +1,6 @@
-export function learnMoreAnimation(btn) {
-    if(btn.style.height != '466px') {
-        btn.style.height = '466px';
+export function learnMoreAnimation(btn, image) {
+    if(btn.style.height != `${image.height}px`) {
+        btn.style.height = `${image.height}px`;
         btn.style.backgroundPosition = 'top';
 
         setTimeout(() => {
