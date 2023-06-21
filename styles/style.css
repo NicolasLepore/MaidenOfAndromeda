@@ -22,9 +22,16 @@ html {
 body {
     background-color: var(--bg);
     color: white;
-    font-family: 'Montserrat', sans-serif; 
+    font-family: 'Montserrat', sans-serif;
+    width: 100vw;
 }
 
 section {
     padding: 0 3.5rem;
+}
+
+@media screen and (max-width: 1024px) {
+    body {
+        margin: auto;
+    }
 }
