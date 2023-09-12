@@ -1,11 +1,11 @@
-import { learnMoreAnimation } from './app/animations.js';
+import { readMoreAnimation } from './app/animations.js';
 
-const learnMoreBtns = document.querySelectorAll('[data-seclearnmore]');
+const readMoreBtns = document.querySelectorAll('[data-secreadmore]');
 const image = document.querySelector('[data-container-img]');
 const form = document.querySelector('#form');
 const submitBtn = document.querySelector('#form-submit');
 
-learnMoreBtns.forEach((btn, i) => {
+readMoreBtns.forEach((btn, i) => {
 
     btn.style.width = `${image.width}px`;
 
@@ -18,7 +18,7 @@ learnMoreBtns.forEach((btn, i) => {
     }
     
     btn.addEventListener('click', () => {
-        learnMoreAnimation(btn, image);
+        readMoreAnimation(btn, image);
     })
 });
 
