@@ -1,4 +1,4 @@
-export function learnMoreAnimation(btn, image) {
+export function readMoreAnimation(btn, image) {
     if(btn.style.height != `${image.height}px`) {
         btn.style.height = `${image.height}px`;
         btn.style.backgroundPosition = 'top';
