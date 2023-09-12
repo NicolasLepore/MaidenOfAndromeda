@@ -1,0 +1,43 @@
+.section-about {
+    margin: 3rem 0 0 0;
+}
+
+.section-about h2 {
+    text-align: center;
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+.section-about h3 {
+    font-size: 24px;
+}
+
+.first-container, .second-container, .third-container {
+    display: flex;
+    margin: 3rem 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.first-container div, .second-container div, .third-container div {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 2rem;
+    text-align: justify;
+}
+
+.first-container img, .second-container img, .third-container img {
+    width: 50%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.first-container p, .second-container p, .third-container p {
+    font-size: 18px;
+}
+
+.second-container {
+    margin-right: 2.2rem;
+}
+

@@ -66,6 +66,7 @@
     width: 100%;
     align-self: center;
     object-fit: cover;
+    border-radius: 16px;
 }
 
 .second-container {
@@ -101,14 +102,14 @@
     justify-content: space-between;
 }
 
-.second-container-learnmore {
+.second-container-readmore {
     width: 100%;
     display: flex;
     justify-content: space-between;
     
 }
 
-.second-container-learnmore-btn {
+.second-container-readmore-btn {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -125,11 +126,11 @@
 }
 
 /*
-.second-learnmore-btn {
+.second-readmore-btn {
     left: calc(50% - 353px / 2);
 }
 
-.third-learnmore-btn {
+.third-readmore-btn {
     left: calc(100% - 353px);
 }
 */

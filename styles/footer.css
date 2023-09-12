@@ -35,6 +35,7 @@ footer {
 
 .footer-right img {
     position: relative;
+    top: 2px;
     right: 40px;
     cursor: pointer;
 }

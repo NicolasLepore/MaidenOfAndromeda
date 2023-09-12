@@ -1,14 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap');
-@import url('./header.css');
-@import url('./swiper.css');
-@import url('./home.css');
-@import url('./footer.css');
 
 html {
     scroll-behavior: smooth;
 }
 
-* {
+:root {
     --bg: #020716;
     --primary-container: #081024;
     --secondary-container: linear-gradient(90.41deg, rgba(17, 38, 151, 0.91) 0.36%, rgba(0, 24, 108, 0.91) 21.04%);
@@ -28,6 +24,10 @@ body {
 
 section {
     padding: 0 3.5rem;
+}
+
+ul, ol, dl {
+    list-style: none;
 }
 
 @media screen and (max-width: 1024px) {

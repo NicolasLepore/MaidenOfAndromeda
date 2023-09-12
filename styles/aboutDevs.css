@@ -1,0 +1,51 @@
+.section-devs {
+    margin: 2rem 0;
+}
+
+.section-devs h2 {
+    text-align: center;
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+.section-devs ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 4.5rem 0;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.section-devs ul li {
+    text-align: center;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.social img {
+    width: 35px;
+}
+
+/*
+.section-devs button {
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+    padding: .8rem 1rem;
+    width: 80%;
+    align-self: center;
+    color: white;
+    background-color: var(--btn);
+    font-size: 16px;
+    font-weight: 700;
+    transition: all .6s;
+}
+
+.section-devs button:hover {
+    transform: scale(0.95);
+}
+*/
