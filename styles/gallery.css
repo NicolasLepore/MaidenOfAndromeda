@@ -1,0 +1,42 @@
+.gallery {
+    margin: 3rem 0;
+}
+
+.gallery ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+.gallery-card {
+    background-color: var(--primary-container);;
+    border-radius: 8px;
+    text-align: center;
+    width: 40%;
+    height: 40vh;
+}
+
+.gallery-card h2 {
+    margin: 2rem;
+}
+
+.gallery-card div {
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+
+.gallery-card .gallery-img {
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+}
+
+.gallery-fav {
+    width: 7%;
+    height: 100%;
+    cursor: pointer;
+    filter: invert();
+}

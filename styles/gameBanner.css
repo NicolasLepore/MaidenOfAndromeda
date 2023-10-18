@@ -1,4 +1,4 @@
-.games section {
+.games {
     padding: 0;
 }
 
@@ -48,6 +48,7 @@
     object-fit: cover;
     height: 100%;
     width: 30%;
+    filter: drop-shadow(2px 4px 6px #000);
 }
 
 .games-banner2 h2 {
