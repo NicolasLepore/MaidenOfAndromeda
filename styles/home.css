@@ -63,7 +63,7 @@
 }
 
 .containers-img {
-    width: 100%;
+    width: 50%;
     align-self: center;
     object-fit: cover;
     border-radius: 16px;
